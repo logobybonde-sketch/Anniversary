@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(#ffd6e7,#fff0f5);
+  text-align:center;
+  padding:40px;
+  color:#333;
+}
+
+.card{
+  background:white;
+  max-width:500px;
+  margin:auto;
+  padding:30px;
+  border-radius:25px;
+  box-shadow:0 10px 30px #ccc;
+  animation:fade 1s ease;
+}
+
+h1{
+  color:#e91e63;
+}
+
+button{
+  background:#e91e63;
+  color:white;
+  border:0;
+  padding:12px 25px;
+  border-radius:20px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+#love{
+  display:none;
+  margin-top:20px;
+  font-size:18px;
+  animation:fade 1s;
+}
+
+@keyframes fade{
+  from{opacity:0; transform:translateY(20px);}
+  to{opacity:1; transform:translateY(0);}
+}
